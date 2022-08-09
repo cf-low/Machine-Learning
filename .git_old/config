@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "master"]
+	url = https://github.com/cf-low/Machine-Learning.git
+	fetch = +refs/heads/*:refs/remotes/master/*
+[remote "main"]
+	url = https://github.com/cf-low/Machine-Learning.git
+	fetch = +refs/heads/*:refs/remotes/main/*
